@@ -14,10 +14,13 @@ Initial exploratory analysis was performed to identify patterns, inconsistencies
 **Step 2: Data Cleaning and Preprocessing**
 
 Handling Missing Data:
+
 Variables with a high percentage of missing values were dropped.
 Missing numerical values were imputed using median values to ensure data integrity.
 Categorical variables were adjusted by creating new classification categories where necessary.
+
 Outlier Treatment:
+
 Outliers were identified and removed to improve model performance and prevent skewed results.
 
 **Step 3: Exploratory Data Analysis (EDA)**
@@ -59,6 +62,7 @@ The model demonstrated strong predictive performance, with an Area Under the Cur
 
 Plotted probability curves for Accuracy, Sensitivity, and Specificity to determine the best threshold for lead classification.
 The optimal cutoff was identified as 0.3, improving the model’s predictive power.
+
 Key performance metrics at this cutoff:
 
 Accuracy: 87.8%
@@ -73,6 +77,7 @@ The model successfully aligned with the CEO’s 80% target conversion rate, maki
 
 Analyzed Precision and Recall to understand the trade-off between capturing true conversions and minimizing false positives.
 Computed values:
+
 Precision: 91.6%
 
 Recall: 81.1%
@@ -86,7 +91,9 @@ Evaluated lead conversion probability using Sensitivity and Specificity metrics.
 Final test set performance:
 
 Accuracy: 87%
+
 Sensitivity: 84.3%
+
 Specificity: 82.2%
 
 
