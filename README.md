@@ -31,7 +31,9 @@ Created dummy variables for categorical features, transforming them into a forma
 Step 5: Splitting the Data for Model Training and Testing
 
 The dataset was divided into:
+
 70% training data for model development.
+
 30% test data for validation and performance assessment.
 
 Step 6: Feature Scaling
@@ -59,8 +61,11 @@ The optimal cutoff was identified as 0.3, improving the model’s predictive pow
 Key performance metrics at this cutoff:
 
 Accuracy: 87.8%
+
 Sensitivity (Recall): 88.1%
+
 Specificity: 87.6%
+
 The model successfully aligned with the CEO’s 80% target conversion rate, making it highly effective for lead scoring.
 
 Step 10: Evaluating Precision and Recall Metrics
@@ -68,7 +73,9 @@ Step 10: Evaluating Precision and Recall Metrics
 Analyzed Precision and Recall to understand the trade-off between capturing true conversions and minimizing false positives.
 Computed values:
 Precision: 91.6%
+
 Recall: 81.1%
+
 Determined an optimal probability cutoff of 0.35, ensuring a balanced approach between precision and recall.
 
 Step 11: Model Validation on the Test Set
