@@ -4,6 +4,7 @@ X Education, a provider of online courses for industry professionals, aims to im
 To achieve this, the company requires a lead scoring model that assigns a numerical score to each lead. A higher score indicates a greater likelihood of conversion, while a lower score suggests a reduced probability. The CEO has set a target lead conversion rate of approximately 80%, making it crucial to develop an efficient and accurate model for lead prioritization.
 
 **Solution Approach**
+
 Step 1: Data Collection and Understanding
 The dataset was thoroughly analyzed to understand its structure, distribution, and key features.
 Initial exploratory analysis was performed to identify patterns, inconsistencies, and potential data quality issues.
