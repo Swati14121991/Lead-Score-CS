@@ -51,6 +51,7 @@ The model demonstrated strong predictive performance, with an Area Under the Cur
 Plotted probability curves for Accuracy, Sensitivity, and Specificity to determine the best threshold for lead classification.
 The optimal cutoff was identified as 0.3, improving the model’s predictive power.
 Key performance metrics at this cutoff:
+
 Accuracy: 87.8%
 
 Sensitivity (Recall): 88.1%
